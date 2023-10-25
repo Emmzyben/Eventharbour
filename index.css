@@ -1,0 +1,134 @@
+body{
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+header{
+ position: sticky; 
+ top: 0;
+ background-color: whitesmoke;
+}
+.custom-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.custom-container > div{
+    width: 30%;
+    text-align: right;
+    padding: 10px
+}
+#underdiv{
+    margin-top: 10px;
+}
+#underdiv > a >button{
+    background-color: #FF595A;
+    padding: 5px;
+    border: 0px solid black;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+    font-size: 17px;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+#hero{
+   text-align: center;
+  }
+  #hero > #button{
+    background-color: #FF595A;
+    color: white;
+    border: 0px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  #hero > button{
+    color: rgb(37, 33, 33);
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  #heroUP{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 80px;
+    padding-top: 30px;
+  }
+  .newhero{
+    background-image: url(images/Frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+
+#back{
+  background-image: url(images/flat-people-dancing_52683-70063.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section > div >form> div> input{
+  border: 1px solid rgb(174, 170, 170);
+  border-radius: 5px;
+  width: 350px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+section > div >form> div> #button{
+  background-color: #FF595A;
+  padding: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+form{
+  display: flex;
+  padding: 40px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+margin: 10%;
+
+}
+section > div {
+  width: 50%;
+  border-top: 1px solid #FF595A;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section>div > form a{
+  font-size: medium;
+  margin-left: 4px;
+}
+
+#welcome{
+  background-color: #ff5959cd;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-align: center;
+  height: 419px;
+  padding: 50px;
+  text-shadow: 2px 2px 10px black;
+}
